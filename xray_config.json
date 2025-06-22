@@ -56,11 +56,14 @@
     "outbounds": [
         {
             "protocol": "freedom",
-            "tag": "direct"
+            "tag": "direct",
+            "settings": {
+                "domainStrategy": "ForceIPv4v6"
+            }
         },
         {
             "protocol": "blackhole",
-            "tag": "block"
+            "tag": "BLOCK"
         }
     ]
 }
